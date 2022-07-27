@@ -1,7 +1,7 @@
 package Arrays.Easy;
-
-class Solution {
-    public boolean checkIfPangram(String sentence) {
+import java.util.*;
+public class Question10 {
+    public static boolean checkIfPangram(String sentence) {
          if (sentence.length() < 26) {
              return false;
          }
@@ -13,4 +13,12 @@ class Solution {
          }
          return true;
      }
+     public static void main(String[] args) {
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter A String: ");
+            String str=sc.nextLine();
+            boolean ans=checkIfPangram(str);
+            System.out.println(ans);
+        }
+    }
  }
