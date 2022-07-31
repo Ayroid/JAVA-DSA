@@ -1,6 +1,6 @@
 package Arrays.Easy;
 import java.util.*;
-public class Questioon13 {
+public class Question13 {
     public static int[][] flipAndInvertImage(int[][] image) {
         int i,j;
         for(i=0;i<image.length;i++){
