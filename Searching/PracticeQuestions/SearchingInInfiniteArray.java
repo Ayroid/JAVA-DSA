@@ -27,7 +27,7 @@ public class SearchingInInfiniteArray {
                 start=mid+1;
             }
         }
-        return -1;
+        return 0;
     }
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
